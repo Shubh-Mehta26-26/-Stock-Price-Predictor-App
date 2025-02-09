@@ -8,10 +8,10 @@ from keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
 from datetime import datetime
 
-# Set Seaborn Style
+# Seaborn Style set kiye hai yaha pay
 sns.set_style("darkgrid")
 
-# Streamlit Title
+# Streamlit ka Title
 st.title("📈 Stock Price Predictor App")
 
 # User Input for Stock Symbol
